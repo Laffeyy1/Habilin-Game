@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be850155269658e4f846675bea5aba24, type: 3}
+  m_Name: 2
+  m_EditorClassIdentifier: 
+  sentences:
+  - englishText: Mother? Is it really you? How can this be? I thought you were gone
+      from this world!
+    tagalogText: Inay? ikaw ba talaga? Paanong nangyari to? Akala ko wala ka na sa
+      mundong ito!
+    speaker: {fileID: 11400000, guid: 87baf972c46c61b4d888d12ffd4ef6e0, type: 2}
+  - englishText: My dear son, I may have left the earthly realm, but a mother's love
+      knows no bounds. I am here because you need me, Andres, now more than ever.
+    tagalogText: 'Mahal kong anak, maaaring umalis na ako sa lupain, ngunit ang pagmamahal
+      ng isang ina ay walang hangganan. Nandito ako dahil kailangan mo ako, Andres,
+      ngayon higit kailanman. '
+    speaker: {fileID: 11400000, guid: dfcb07c11b7220544b9933d79ce42b4d, type: 2}
+  - englishText: ' But why am I in this dungeon? What has happened to our family?
+      Tell me, Mother, I need to know! '
+    tagalogText: 'Pero bakit ako nasa lugar na ito? Anong nangyari sa pamilya namin?
+      Sabihin mo sa akin, Ina, kailangan kong malaman! '
+    speaker: {fileID: 11400000, guid: 87baf972c46c61b4d888d12ffd4ef6e0, type: 2}
+  - englishText: ' But why am I in this dungeon? What has happened to our family?
+      Tell me, Mother, I need to know! '
+    tagalogText: 'Pero bakit ako nasa lugar na ito? Anong nangyari sa pamilya namin?
+      Sabihin mo sa akin, Ina, kailangan kong malaman! '
+    speaker: {fileID: 11400000, guid: 87baf972c46c61b4d888d12ffd4ef6e0, type: 2}
+  - englishText: Your family has faced great challenges. They fear your passion,
+      your love for our people, and your dreams of freedom. They've imprisoned you,
+      hoping to extinguish that flame. But remember, adversity only strengthens the
+      resolve of a true leader
+    tagalogText: 'Ang ating pamilya ay nahaharap sa malaking hamon. Kinatatakutan
+      nila ang iyong hilig, ang iyong pagmamahal sa ating bayan, at ang iyong mga
+      pangarap ng kalayaan. Ikinulong ka nila, umaasang mapatay ang apoy na iyon.
+      Ngunit tandaan, ang kahirapan ay nagpapatibay lamang sa determinasyon ng isang
+      tunay na pinuno. '
+    speaker: {fileID: 11400000, guid: dfcb07c11b7220544b9933d79ce42b4d, type: 2}
+  - englishText: I will not be broken, Mother. Our fight for freedom will continue,
+      no matter the obstacles. But what can you tell me? What do you know of our
+      family's fate?
+    tagalogText: 'Hindi ako matitinag, Inay. Magpapatuloy ang ating laban para sa
+      kalayaan, anuman ang mga hadlang. Ngunit ano ang masasabi mo sa akin? Ano ang
+      alam mo sa kapalaran ng ating pamilya? '
+    speaker: {fileID: 11400000, guid: 87baf972c46c61b4d888d12ffd4ef6e0, type: 2}
+  - englishText: 'Your siblings are scared but strong. Your wife, Gregoria, is a
+      pillar of strength. As for me, I am proud, Andres, proud of the man you''ve
+      become and the sacrifices you''ve made for our country. '
+    tagalogText: 'Ang iyong mga kapatid ay natatakot ngunit malakas. Ang iyong asawa,
+      si Gregoria, ay isang haligi ng lakas. Samantalang ako, ipinagmamalaki ko,
+      Andres, ipinagmamalaki ang iyong naging tao at ang mga sakripisyong ginawa
+      mo para sa ating bansa. '
+    speaker: {fileID: 11400000, guid: dfcb07c11b7220544b9933d79ce42b4d, type: 2}
+  - englishText: 'Mother, I fear for all of you. The path we have chosen is perilous,
+      and I worry about your safety. '
+    tagalogText: 'Ina, natatakot po ako samaaaring mangyari sa inyo. Ang landas na
+      ating pinili ay delikado, at nag-aalala ako sa iyong kaligtasan. '
+    speaker: {fileID: 11400000, guid: 87baf972c46c61b4d888d12ffd4ef6e0, type: 2}
+  - englishText: 'Do not worry, my son. Our family is bound by love and purpose.
+      Your determination inspires us all, Andres. Your bravery gives us hope in the
+      darkest of times. '
+    tagalogText: Huwag kang mag-alala, anak ko. Ang aming pamilya ay pinagbuklod
+      ng pagmamahal at layunin. Ang iyong determinasyon ay nagbibigay inspirasyon
+      sa aming lahat, Andres. Ang iyong katapangan ay nagbibigay sa amin ng pag-asa
+      sa pinaka madilim na panahon.
+    speaker: {fileID: 11400000, guid: dfcb07c11b7220544b9933d79ce42b4d, type: 2}
+  - englishText: I will not rest until our people are free, Mother. I promise you
+      that.
+    tagalogText: 'Hindi ako titigil hangga''t hindi nakakalaya ang ating bayan, Ina.
+      Pangako ko sayo yan. '
+    speaker: {fileID: 11400000, guid: 87baf972c46c61b4d888d12ffd4ef6e0, type: 2}
+  - englishText: I know you won't, my dear son. But remember, strength is not just
+      in your fists, but in your heart and in the love you carry for our land and
+      its people. Let that love guide you, and you will prevail.
+    tagalogText: Alam kong hindi hindi mo gagawin ang sumuko, mahal kong anak. Ngunit
+      tandaan, ang lakas ay hindi lamang sa iyong mga kamao, kundi sa iyong puso
+      at sa pagmamahal na iyong dinadala para sa ating lupain at sa mga mamamayan
+      nito. Hayaang gabayan ka ng pag-ibig na iyon, at mananaig ka
+    speaker: {fileID: 11400000, guid: 87baf972c46c61b4d888d12ffd4ef6e0, type: 2}
+  hasHint: 0
+  toHint: 

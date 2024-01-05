@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 240cafd5ec9eda04c9251d558dfcc00c, type: 3}
+  m_Name: Enlarge
+  m_EditorClassIdentifier: 
+  name: Warrior's Growth
+  description: LapuLapu enlarges his weapon, imbuing it with increased power and
+    reach, ready to deliver devastating blows to foes.
+  icon: {fileID: 21300000, guid: 6c881a6a5df92e746a1facfd105ccc5c, type: 3}
+  manaConsumption: 3
+  cooldownTime: 20
+  activateTime: 1
+  weaponScale: 2
+  scaleIncreaseFactor: 1.5
+  damageMultiplier: 2
+  enlargeDuration: 1
+  pauseDuration: 10
+  returnDuration: 1

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/firebase_database_url,@string/gcm_defaultSenderId,@string/google_storage_bucket,@string/project_id,@string/google_api_key,@string/google_crash_reporting_api_key,@string/google_app_id,@string/default_android_client_id,@string/default_web_client_id">
+  <string name="firebase_database_url" translatable="false">https://habilin-f5e00-default-rtdb.asia-southeast1.firebasedatabase.app</string>
+  <string name="gcm_defaultSenderId" translatable="false">117378514654</string>
+  <string name="google_storage_bucket" translatable="false">habilin-f5e00.appspot.com</string>
+  <string name="project_id" translatable="false">habilin-f5e00</string>
+  <string name="google_api_key" translatable="false">AIzaSyA2hRugN5tmEjVxbZO7DwMjcmSwXWWzZDw</string>
+  <string name="google_crash_reporting_api_key" translatable="false">AIzaSyA2hRugN5tmEjVxbZO7DwMjcmSwXWWzZDw</string>
+  <string name="google_app_id" translatable="false">1:117378514654:android:b79e73f66ffceb7ae80c4f</string>
+  <string name="default_android_client_id" translatable="false">117378514654-ammt5pc5v2i6ut5tlhmep3ckta9dqvoe.apps.googleusercontent.com</string>
+  <string name="default_web_client_id" translatable="false">117378514654-srj3f29b22rsarf7ror1r6uu8ohv4c7q.apps.googleusercontent.com</string>
+</resources>

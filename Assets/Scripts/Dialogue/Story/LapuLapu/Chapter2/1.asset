@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be850155269658e4f846675bea5aba24, type: 3}
+  m_Name: 1
+  m_EditorClassIdentifier: 
+  sentences:
+  - englishText: 'I do think it is the time for me to pass the responsibility to
+      take care of this land to you, my son. '
+    tagalogText: 'Sa tingin ko, panahon na para ipasa ko ang responsibilidad na pangalagaan
+      ang lupaing ito sa iyo, anak ko. '
+    speaker: {fileID: 11400000, guid: aa74919f0e18df44b902f553b41fa397, type: 2}
+  - englishText: It is my pleasure to be the Datu of this place.
+    tagalogText: 'Ikinagagalak kong maging Datu ng lugar na ito. '
+    speaker: {fileID: 11400000, guid: f475f83351979d64cada43712f2b7915, type: 2}
+  - englishText: 'But before that I need you to defeat the monster of the sea. Finishing
+      that will grant you the mark that signifies your experiences, knowledge and
+      strength. '
+    tagalogText: Pero bago iyon kailangan mong talunin ang halimaw ng dagat. Ang
+      pagtatapos na magbibigay sa iyo ng marka na nagpapahiwatig ng iyong mga karanasan,
+      kaalaman at lakas.
+    speaker: {fileID: 11400000, guid: aa74919f0e18df44b902f553b41fa397, type: 2}
+  - englishText: I will slain the monster and be the warrior worthy of your throne.
+    tagalogText: Papatayin ko ang halimaw at magiging mandirigmang karapat-dapat
+      sa iyong trono.
+    speaker: {fileID: 11400000, guid: f475f83351979d64cada43712f2b7915, type: 2}
+  hasHint: 1
+  toHint: Find and Defeat the Creature.

@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a780126eefd7f33489785c6e3a96ce01, type: 3}
+  m_Name: ShopItem
+  m_EditorClassIdentifier: 
+  shopItems:
+  - itemPrefab: {fileID: 5089731682491036727, guid: 896f0fa78be219141ae65011f8fa688f, type: 3}
+    cost: 20
+    weight: 5
+  - itemPrefab: {fileID: 6348840034437355541, guid: 70ca151bd7f3250428a8c9dd766b9f7a, type: 3}
+    cost: 30
+    weight: 5
+  - itemPrefab: {fileID: 5089731682491036727, guid: 2ab67cd7a07761649a9bc21eb15c5cb8, type: 3}
+    cost: 118
+    weight: 10
+  - itemPrefab: {fileID: 7479805121908214138, guid: 7cffa5204cd9eed48ba8b9ece9a6f536, type: 3}
+    cost: 75
+    weight: 10
+  - itemPrefab: {fileID: 7479805121908214138, guid: 3c01de9dcaacb9d4b90b05ff75ddfa13, type: 3}
+    cost: 118
+    weight: 10
+  - itemPrefab: {fileID: 7479805121908214138, guid: 9d390b8cd85bd524ebb360682b2b8fb4, type: 3}
+    cost: 100
+    weight: 10
+  - itemPrefab: {fileID: 7479805121908214138, guid: bc13abe51f922054387699c8c1fe4f75, type: 3}
+    cost: 150
+    weight: 10
+  - itemPrefab: {fileID: 7479805121908214138, guid: 2288de6c1108aef4ab2dcb292af674da, type: 3}
+    cost: 150
+    weight: 10
+  - itemPrefab: {fileID: 7479805121908214138, guid: 0fab9a66d81255446a78f19609c2f682, type: 3}
+    cost: 150
+    weight: 10
+  - itemPrefab: {fileID: 7479805121908214138, guid: 7e3cd65d8c8f52f4984c52e73b2c5043, type: 3}
+    cost: 200
+    weight: 10
+  - itemPrefab: {fileID: 7479805121908214138, guid: dd3a823e02b41b6469d1b9c1ebd0b416, type: 3}
+    cost: 50
+    weight: 10
+  - itemPrefab: {fileID: 6348840034437355541, guid: b19cc10c28605fd4286fa214c299219d, type: 3}
+    cost: 50
+    weight: 20
+  - itemPrefab: {fileID: 6348840034437355541, guid: 8bb92fbd346a4424595191ff25a7fc8d, type: 3}
+    cost: 50
+    weight: 10
+  - itemPrefab: {fileID: 6348840034437355541, guid: 979d563d14d0f7840926ad3a4ed18e26, type: 3}
+    cost: 50
+    weight: 10
+  - itemPrefab: {fileID: 6348840034437355541, guid: 23c5a106fd6e6de43a38a6d33e5e83d9, type: 3}
+    cost: 50
+    weight: 10
+  - itemPrefab: {fileID: 6348840034437355541, guid: 17bb04fe2749d03438365718c1b7df75, type: 3}
+    cost: 50
+    weight: 10
+  - itemPrefab: {fileID: 6348840034437355541, guid: 98d26a714caa57d4ea339a902ef60eef, type: 3}
+    cost: 50
+    weight: 10
+  - itemPrefab: {fileID: 6348840034437355541, guid: cee3098530f55dc48be6af471ad49d4c, type: 3}
+    cost: 50
+    weight: 10

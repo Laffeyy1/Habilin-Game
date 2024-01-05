@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be850155269658e4f846675bea5aba24, type: 3}
+  m_Name: 3
+  m_EditorClassIdentifier: 
+  sentences:
+  - englishText: whoa! it's been a while since i've visited this place.
+    tagalogText: Whoa! Matagal na rin mula nang huli akong bumisita rito.
+    speaker: {fileID: 11400000, guid: 44967a23cc0bba941a054f80476fc22e, type: 2}
+  - englishText: there's only few people that get to visit this beautiful place.
+    tagalogText: Maaring iilang tao lamang ang nakakarating sa magandang itong pook
+      na ito.
+    speaker: {fileID: 11400000, guid: 44967a23cc0bba941a054f80476fc22e, type: 2}
+  - englishText: my friend's in the outside world told me that people these days
+      don't usually use books anymore.
+    tagalogText: Sabi ng mga kaibigan ko sa labas ng mundo na ang mga tao sa ngayon
+      ay bihira nang gumamit ng mga aklat.
+    speaker: {fileID: 11400000, guid: 44967a23cc0bba941a054f80476fc22e, type: 2}
+  - englishText: ' think that''s why there''s only a few people that i''ve met.'
+    tagalogText: Aking naiisip na iyon ang dahilan kung bakit iilang tao lamang ang
+      aking nakakilala.
+    speaker: {fileID: 11400000, guid: 44967a23cc0bba941a054f80476fc22e, type: 2}
+  hasHint: 1
+  toHint: Enter the ruins.

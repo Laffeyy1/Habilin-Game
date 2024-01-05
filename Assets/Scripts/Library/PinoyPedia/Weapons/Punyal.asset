@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6407e1d49e69c79499ef385a1e15165c, type: 3}
+  m_Name: Punyal
+  m_EditorClassIdentifier: 
+  itemImage: {fileID: -627120393, guid: b276c8d1c2049a04c9abba207eab4180, type: 3}
+  itemName: Punyal
+  description: The Punyal is a traditional Filipino dagger with a double-edged, symmetrical
+    blade, known for its historical ties to Filipino martial arts and cultural significance

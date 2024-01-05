@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be850155269658e4f846675bea5aba24, type: 3}
+  m_Name: 4
+  m_EditorClassIdentifier: 
+  sentences:
+  - englishText: '(Astonished) Who are they? '
+    tagalogText: (Astonished) Sino sila?
+    speaker: {fileID: 11400000, guid: 83e0e985c1dbe114ea3a51686bcb6b38, type: 2}
+  - englishText: These are the heroes of Philippine revolutions, individuals who
+      have left an enduring mark on the course of your nation's history.
+    tagalogText: Ito'y ang mga bayani ng mga rebolusyong Pilipino, mga indibidwal
+      na nag-iwan ng makabuluhang tatak sa kasaysayan ng bansang Pilipinas.
+    speaker: {fileID: 11400000, guid: 44967a23cc0bba941a054f80476fc22e, type: 2}
+  - englishText: you have the chance to grasp the intricate nuances of the past and
+      the brilliance that lies within the hearts of your nation's heroes.
+    tagalogText: Nagkakaroon ka ng pagkakataon na maunawaan ang masalimuot na bahagi
+      ng nakaraan at ang kahusayan na matatagpuan sa puso ng mga bayaning ito.
+    speaker: {fileID: 11400000, guid: 44967a23cc0bba941a054f80476fc22e, type: 2}
+  - englishText: '(Reflecting) It''s a lot to take in, to carry the weight of their
+      stories. '
+    tagalogText: (Reflecting) Napakarami ng dapat unawain, ng mabigatang pasanin
+      ng kanilang mga kuwento.
+    speaker: {fileID: 11400000, guid: 83e0e985c1dbe114ea3a51686bcb6b38, type: 2}
+  - englishText: First, you must decide which hero's legacy resonates with you. Whose
+      path will you tread? Whose challenges will you face? Your choice will chart
+      the course of history as you help to reshape it.
+    tagalogText: Sa una, kailangan mong pumili kung aling bayani ang tumutugma sa
+      iyong puso. Kaninong landas ang nais mong tahakin? Kaninong mga hamon ang nais
+      mong harapin? Ang iyong pagpili ay magiging tuntunin ng kasaysayan habang tumutulong
+      ka sa pag-eehersisyo nito.
+    speaker: {fileID: 11400000, guid: 44967a23cc0bba941a054f80476fc22e, type: 2}
+  - englishText: Yout choice will chart the course of history as you help to reshape
+      it.
+    tagalogText: Ang pagpili mo ang takbo ng kasaysayan habang tinutulungan mo itong
+      baguhin.
+    speaker: {fileID: 11400000, guid: 44967a23cc0bba941a054f80476fc22e, type: 2}
+  hasHint: 1
+  toHint: Select a character

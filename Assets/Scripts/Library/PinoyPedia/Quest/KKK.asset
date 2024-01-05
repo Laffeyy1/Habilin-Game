@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6407e1d49e69c79499ef385a1e15165c, type: 3}
+  m_Name: KKK
+  m_EditorClassIdentifier: 
+  itemImage: {fileID: 21300000, guid: e9113c65b3f23f54bbabe264035ce606, type: 3}
+  itemName: KKK
+  description: KKK stands for "Kataas-taasang, Kagalang-galangang Katipunan ng mga
+    Anak ng Bayan" in Filipino, which translates to "Supreme and Venerable Society
+    of the Children of the Nation." The Katipunan, abbreviated as KKK, was a secret
+    revolutionary society in the Philippines that aimed for independence from Spanish
+    colonial rule.

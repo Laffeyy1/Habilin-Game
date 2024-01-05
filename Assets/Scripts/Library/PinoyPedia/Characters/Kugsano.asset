@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6407e1d49e69c79499ef385a1e15165c, type: 3}
+  m_Name: Kugsano
+  m_EditorClassIdentifier: 
+  itemImage: {fileID: 21300000, guid: 223e4bbfde6f8aa4da9c639d38ae668e, type: 3}
+  itemName: Kusgano
+  description: The available historical records provide limited information about
+    LapuLapu's family and personal life. Specifically, there is no recorded historical
+    data about LapuLapu's father, leaving aspects of his family life largely unknown
+    and subject to folklore and oral tradition.

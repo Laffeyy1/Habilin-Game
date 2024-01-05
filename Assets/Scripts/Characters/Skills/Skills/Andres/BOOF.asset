@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c360a846abae5bb4599cfddb06a8231e, type: 3}
+  m_Name: BOOF
+  m_EditorClassIdentifier: 
+  name: 'Revolutionary Cry '
+  description: Andres Bonifacio activates "Revolutionary Cry ," granting increased
+    speed and enhanced health to himself.
+  icon: {fileID: 21300000, guid: 755ac14e439e0a745b97538d11afca0f, type: 3}
+  manaConsumption: 2
+  cooldownTime: 10
+  activateTime: 5
+  BuffParticle: {fileID: 5033358882547511470, guid: 021ffb51a134fde4b97f96135deefa85, type: 3}

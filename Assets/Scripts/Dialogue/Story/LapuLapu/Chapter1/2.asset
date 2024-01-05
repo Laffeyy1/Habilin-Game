@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be850155269658e4f846675bea5aba24, type: 3}
+  m_Name: 2
+  m_EditorClassIdentifier: 
+  sentences:
+  - englishText: 'It took you so long to respond to my calling. '
+    tagalogText: Ang tagal mong tumugon sa tawag ko anak.
+    speaker: {fileID: 11400000, guid: aa74919f0e18df44b902f553b41fa397, type: 2}
+  - englishText: ' Sorry father, do you need something father?'
+    tagalogText: ' Paumanhin, may kailangan ka po ba ama? '
+    speaker: {fileID: 11400000, guid: f475f83351979d64cada43712f2b7915, type: 2}
+  - englishText: You know that you are the one who will inherit my throne and rule
+      this place. However, I don't plan to give this place to those who dont deserve
+      it. You need to prove to me that you are worthy to be a ruler of this place.
+    tagalogText: 'Alam mo na ikaw ang magmamana ng aking trono at mamamahala sa lugar
+      na ito. Gayunpaman, hindi ko planong ibigay ang lugar na ito sa mga hindi karapat-dapat
+      dito. Kailangan mong patunayan sa akin na karapat-dapat kang maging pinuno
+      ng lugar na ito. '
+    speaker: {fileID: 11400000, guid: aa74919f0e18df44b902f553b41fa397, type: 2}
+  - englishText: Yes father. I will prove to you that I am worthy to rule this place.
+      What do you want me to do my father?
+    tagalogText: Opo ama. Patutunayan ko sa iyo na karapat-dapat akong pamunuan ang
+      lugar na ito. Ano ang gusto mong gawin ko sa aking ama?
+    speaker: {fileID: 11400000, guid: f475f83351979d64cada43712f2b7915, type: 2}
+  - englishText: ' Learn how to farm, hunt and gather. You need this if you really
+      want to be a Datu of this place.'
+    tagalogText: Alamin kung paano magsaka, manghuli at mangalap. Kailangan mo ito
+      kung gusto mo talagang maging Datu ng lugar na ito
+    speaker: {fileID: 11400000, guid: aa74919f0e18df44b902f553b41fa397, type: 2}
+  - englishText: 'Yes. I will do it '
+    tagalogText: Masusunod. Ito ay aking gagawin.
+    speaker: {fileID: 11400000, guid: f475f83351979d64cada43712f2b7915, type: 2}
+  hasHint: 1
+  toHint: Gather Seed

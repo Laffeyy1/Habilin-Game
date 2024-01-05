@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be850155269658e4f846675bea5aba24, type: 3}
+  m_Name: 2
+  m_EditorClassIdentifier: 
+  sentences:
+  - englishText: To arms, my warriors! The time has come to defend our sacred land.
+      An enemy approaches, and we shall not yield!
+    tagalogText: Sa sandata, aking mga mandirigma! Oras na para ipagtanggol ang ating
+      sagradong lupain. Isang kaaway ang lumalapit, at hindi tayo susuko!
+    speaker: {fileID: 11400000, guid: f475f83351979d64cada43712f2b7915, type: 2}
+  - englishText: (Addressing his crew) We have come to bring Christianity to these
+      lands, and with Humabon's support, we shall succeed. Prepare to disembark.
+    tagalogText: (Tumugon sa kanyang mga tauhan) Kami ay naparito upang dalhin ang
+      Kristiyanismo sa mga lupaing ito, at sa suporta ni Humabon, tayo ay magtatagumpay.
+      Maghanda sa pagbaba.
+    speaker: {fileID: 11400000, guid: 9b0d3e1ad95dd0e4a818fd62bd23011b, type: 2}
+  - englishText: 'This is your last chance Lapu- lapu! Kneel and you will be forgiven. '
+    tagalogText: 'Ito na ang iyong huling pagkakataon Lapu-lapu! Lumuhod at patatawarin
+      ka. '
+    speaker: {fileID: 11400000, guid: 9b0d3e1ad95dd0e4a818fd62bd23011b, type: 2}
+  - englishText: 'As long as I''m standing. I will defend this land and its beliefs. '
+    tagalogText: habang ako ay nakatayo. Ipagtatanggol ko ang lupaing ito at ang
+      mga paniniwala nito.
+    speaker: {fileID: 11400000, guid: f475f83351979d64cada43712f2b7915, type: 2}
+  - englishText: (Challenging) These foreign ways will not take root on our soil!
+      Defend Mactan with all your strength!
+    tagalogText: (Naghahamon) Ang mga dayuhang pamamaraang na ito ay hindi magbubunga
+      sa ating lupa! Ipagtanggol ang Mactan sa abot ng ating makakaya!
+    speaker: {fileID: 11400000, guid: f475f83351979d64cada43712f2b7915, type: 2}
+  hasHint: 1
+  toHint: Win the War

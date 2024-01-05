@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6407e1d49e69c79499ef385a1e15165c, type: 3}
+  m_Name: Kubo
+  m_EditorClassIdentifier: 
+  itemImage: {fileID: 21300000, guid: e31db44c2754c704eb6d8316732d7e9b, type: 3}
+  itemName: Bahay Kubo
+  description: "Bahay Kubo is a traditional Filipino house with a simple, nipa palm-thatched
+    design, featuring bamboo walls and an elevated, open layout\u2014a cultural icon
+    representing adaptability to the tropical climate."

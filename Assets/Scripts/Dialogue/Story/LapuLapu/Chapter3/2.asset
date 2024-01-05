@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be850155269658e4f846675bea5aba24, type: 3}
+  m_Name: 2
+  m_EditorClassIdentifier: 
+  sentences:
+  - englishText: Chief Lapu-Lapu, I come to you not as an adversary, but as a brother
+      in faith. The teachings of Christianity have brought profound blessings to
+      my people, and I believe they can do the same for yours.
+    tagalogText: Punong Lapu-Lapu, lumalapit ako sa iyo hindi bilang isang kalaban,
+      kundi bilang isang kapatid sa pananampalataya. Ang mga turo ng Kristiyanismo
+      ay nagdulot ng malalim na pagpapala sa aking mga tao, at naniniwala akong magagawa
+      nila ito para sa iyo
+    speaker: {fileID: 11400000, guid: 30935c4a0788ce54ca6c287bffed5484, type: 2}
+  - englishText: Humabon, I've heard of your newfound faith, but I have no desire
+      to abandon our traditions. We are warriors, and we will remain true to our
+      ways.
+    tagalogText: Humabon, narinig ko na ang iyong bagong tuklas na pananampalataya,
+      ngunit wala akong pagnanais na talikuran ang ating mga tradisyon. Kami ay mga
+      mandirigma, at mananatili kaming tapat sa aming mga paraan.
+    speaker: {fileID: 11400000, guid: f475f83351979d64cada43712f2b7915, type: 2}
+  - englishText: 'Christianity does not ask you to abandon your warrior spirit, Lapu-Lapu.
+      It merely offers a path to peace and unity alongside our existing beliefs. '
+    tagalogText: Hindi hinihiling ng Kristiyanismo na talikuran mo ang iyong dugong
+      mandirigma, Lapu-Lapu. Nag-aalok lamang ito ng landas tungo sa kapayapaan at
+      pagkakaisa kasama ng ating mga umiiral na paniniwala.
+    speaker: {fileID: 11400000, guid: 30935c4a0788ce54ca6c287bffed5484, type: 2}
+  - englishText: I respect your choice, Humabon, but I will not follow. My people
+      have their own path, and we will not yield to foreign ways.
+    tagalogText: Iginagalang ko ang iyong pinili, Humabon, ngunit hindi ako susunod.
+      Ang aking mga tao ay may sariling landas, at hindi kami susunod sa mga pamamaraan
+      ng dayuhan.
+    speaker: {fileID: 11400000, guid: f475f83351979d64cada43712f2b7915, type: 2}
+  hasHint: 0
+  toHint: 

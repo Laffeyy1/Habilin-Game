@@ -1,0 +1,838 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1701326913615004, "dur": 7156546, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1701326913615290, "dur": 3751, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1701326913619043, "dur": 47587, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1701326913666632, "dur": 1017334, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1701326914683969, "dur": 6076148, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1701326920760121, "dur": 11428, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1701326920772792, "dur": 54, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1701326914441256, "dur": 220090, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1701326914442439, "dur": 53476, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1701326914640991, "dur": 5528, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1701326914646523, "dur": 14785, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1701326914647501, "dur": 12295, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1701326914668727, "dur": 1502, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1701326914667782, "dur": 2476, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1701326920773316, "dur": 1014, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1701326914741849, "dur":1706, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701326914743571, "dur":262, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1701326914743894, "dur":69, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1701326914743963, "dur":730, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1701326914744734, "dur":2016, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701326914746750, "dur":3, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701326920743185, "dur":283, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701326920743468, "dur":108, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701326920743576, "dur":25, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701326920743601, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701326920743614, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701326920743618, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701326920743629, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701326920743631, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701326920743637, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701326920743639, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701326920743645, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701326920743647, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701326920743653, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701326920743655, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701326920743662, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701326920743664, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701326920743672, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701326920743673, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701326920743678, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701326920743680, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701326920743686, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701326920743688, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701326920743693, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701326920743695, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701326920743701, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701326920743706, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701326920743736, "dur":4758, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1701326914745245, "dur":1522, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701326914746775, "dur":8532, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701326914755331, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1701326914755341, "dur":577, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701326914755923, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1701326914755932, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701326914790101, "dur":3982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1701326914794085, "dur":34975, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1701326914829066, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701326914829111, "dur":1084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1701326914830209, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1701326914830247, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701326914832376, "dur":228502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1701326915060900, "dur":20174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701326915081078, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701326915081084, "dur":71233, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701326915152438, "dur":441, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701326915152882, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701326915152887, "dur":84817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701326915237859, "dur":30101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701326915267967, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701326915267981, "dur":2477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701326915270567, "dur":297, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701326915270868, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701326915270880, "dur":4281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701326915275274, "dur":308, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701326915275587, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701326915275596, "dur":46232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701326915321960, "dur":296, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701326915322260, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701326915322271, "dur":10133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701326915332711, "dur":2873, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701326915335653, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701326915335666, "dur":2554, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701326915338317, "dur":28324, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701326915366648, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701326915366660, "dur":78853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701326915445621, "dur":257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701326915445881, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701326915445890, "dur":33898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701326915479908, "dur":286, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701326915480199, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701326915480214, "dur":64687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701326915545005, "dur":244, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701326915545254, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701326915545263, "dur":36738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701326915582092, "dur":282, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701326915582378, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701326915582386, "dur":26056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701326915608595, "dur":291, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701326915608890, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701326915608902, "dur":80428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701326915689440, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701326915689561, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701326915689581, "dur":87147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701326915776826, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701326915776902, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701326915776908, "dur":59425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701326915836423, "dur":249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/Dan.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701326915836675, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701326915836704, "dur":12677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/Dan.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701326915849464, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/StreamingAssets/google-services-desktop.json" }}
+,{ "pid":12345, "tid":1, "ts":1701326915849552, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701326915864223, "dur":166713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/StreamingAssets/google-services-desktop.json" }}
+,{ "pid":12345, "tid":1, "ts":1701326916031017, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":1, "ts":1701326916031087, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701326916031092, "dur":128921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":1, "ts":1701326916160192, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/sharedassets20.assets" }}
+,{ "pid":12345, "tid":1, "ts":1701326916160293, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701326916160305, "dur":205875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/sharedassets20.assets" }}
+,{ "pid":12345, "tid":1, "ts":1701326916366353, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/sharedassets15.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1701326916366453, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701326916366463, "dur":86660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/sharedassets15.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1701326916453271, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/sharedassets12.assets" }}
+,{ "pid":12345, "tid":1, "ts":1701326916453376, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701326916453389, "dur":3695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/sharedassets12.assets" }}
+,{ "pid":12345, "tid":1, "ts":1701326916457347, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1701326916457499, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701326916457512, "dur":7602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1701326916465205, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/level5.resS" }}
+,{ "pid":12345, "tid":1, "ts":1701326916465326, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701326916465335, "dur":5663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/level5.resS" }}
+,{ "pid":12345, "tid":1, "ts":1701326916471100, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/level19" }}
+,{ "pid":12345, "tid":1, "ts":1701326916471203, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701326916471211, "dur":4978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/level19" }}
+,{ "pid":12345, "tid":1, "ts":1701326916476295, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/level11" }}
+,{ "pid":12345, "tid":1, "ts":1701326916476392, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701326916476401, "dur":66365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/level11" }}
+,{ "pid":12345, "tid":1, "ts":1701326916542886, "dur":4200292, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701326914745369, "dur":1422, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701326914746792, "dur":8521, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701326914755330, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1701326914755463, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701326914791923, "dur":25018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1701326914816961, "dur":397141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701326915214113, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701326915214554, "dur":9170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701326915223746, "dur":401, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701326915224153, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701326915224164, "dur":17048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701326915241320, "dur":261, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701326915241586, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701326915241599, "dur":3588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701326915245289, "dur":30505, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701326915275798, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701326915275806, "dur":45839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701326915321738, "dur":24217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701326915345962, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701326915346076, "dur":7960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701326915354133, "dur":27401, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701326915381540, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701326915381552, "dur":63994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701326915445662, "dur":24662, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701326915470330, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701326915470340, "dur":59601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701326915530029, "dur":183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701326915530216, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701326915530306, "dur":39649, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701326915570058, "dur":859, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701326915570924, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701326915570940, "dur":28686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701326915599731, "dur":276, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701326915600011, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701326915600022, "dur":51203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701326915651340, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701326915651569, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701326915651580, "dur":47541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701326915699212, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701326915699296, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701326915699303, "dur":97410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701326915796852, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701326915796953, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701326915796962, "dur":42979, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701326915840045, "dur":409, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701326915840457, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701326915840464, "dur":9597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701326915850139, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/sharedassets8.assets" }}
+,{ "pid":12345, "tid":2, "ts":1701326915850205, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701326915850211, "dur":116337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/sharedassets8.assets" }}
+,{ "pid":12345, "tid":2, "ts":1701326915966636, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/sharedassets6.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1701326915966727, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701326915966735, "dur":74599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/sharedassets6.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1701326916041426, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":2, "ts":1701326916041518, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701326916041525, "dur":287668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":2, "ts":1701326916329301, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/sharedassets19.assets" }}
+,{ "pid":12345, "tid":2, "ts":1701326916329397, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701326916329404, "dur":95484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/sharedassets19.assets" }}
+,{ "pid":12345, "tid":2, "ts":1701326916425024, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/sharedassets14.assets" }}
+,{ "pid":12345, "tid":2, "ts":1701326916425140, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701326916425149, "dur":30657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/sharedassets14.assets" }}
+,{ "pid":12345, "tid":2, "ts":1701326916455910, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":2, "ts":1701326916456008, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701326916456019, "dur":4051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":2, "ts":1701326916460204, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1701326916460296, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701326916460307, "dur":5470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1701326916465950, "dur":495, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/level3" }}
+,{ "pid":12345, "tid":2, "ts":1701326916466450, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701326916466461, "dur":4594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/level3" }}
+,{ "pid":12345, "tid":2, "ts":1701326916471148, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/level18" }}
+,{ "pid":12345, "tid":2, "ts":1701326916471227, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701326916471283, "dur":4959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/level18" }}
+,{ "pid":12345, "tid":2, "ts":1701326916476323, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/level10" }}
+,{ "pid":12345, "tid":2, "ts":1701326916476408, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701326916476415, "dur":4684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/level10" }}
+,{ "pid":12345, "tid":2, "ts":1701326916481186, "dur":4261994, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701326914745349, "dur":1431, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701326914746782, "dur":8532, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701326914755329, "dur":26920, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1701326914782256, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701326914791440, "dur":2409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1701326914793879, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1701326914793930, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701326914795130, "dur":171188, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1701326914966351, "dur":382, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701326914966738, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701326914966751, "dur":1462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701326914968299, "dur":374, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701326914968682, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701326914968695, "dur":10640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701326914979434, "dur":24907, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701326915004350, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701326915004375, "dur":2706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701326915007159, "dur":24707, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701326915031870, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701326915031878, "dur":120198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701326915152174, "dur":1507, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701326915153685, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701326915153692, "dur":73481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701326915227285, "dur":297, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701326915227587, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701326915227598, "dur":16703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701326915244432, "dur":31194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701326915275631, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701326915275642, "dur":45870, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701326915321666, "dur":32891, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701326915354562, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701326915354576, "dur":1808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701326915356459, "dur":25077, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701326915381542, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701326915381553, "dur":64274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701326915445964, "dur":316, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701326915446285, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701326915446323, "dur":82391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701326915528793, "dur":352, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701326915529149, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701326915529197, "dur":27965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701326915557315, "dur":345, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701326915557769, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701326915557783, "dur":24848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701326915582735, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701326915582837, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701326915582844, "dur":25892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701326915608834, "dur":250, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701326915609185, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701326915609194, "dur":77618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701326915686902, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701326915686990, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701326915686998, "dur":89157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701326915776270, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701326915776374, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701326915776387, "dur":59751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701326915836230, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/Firebase.App.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701326915836317, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701326915836324, "dur":13204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/Firebase.App.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701326915849627, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1701326915849733, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701326915849757, "dur":32744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1701326915882595, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/sharedassets7.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1701326915882660, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701326915882692, "dur":148052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/sharedassets7.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1701326916030861, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/sharedassets5.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1701326916030947, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701326916030958, "dur":128971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/sharedassets5.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1701326916160095, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/sharedassets21.assets" }}
+,{ "pid":12345, "tid":3, "ts":1701326916160233, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701326916160243, "dur":263920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/sharedassets21.assets" }}
+,{ "pid":12345, "tid":3, "ts":1701326916424388, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/sharedassets14.resource" }}
+,{ "pid":12345, "tid":3, "ts":1701326916424519, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701326916424533, "dur":51176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/sharedassets14.resource" }}
+,{ "pid":12345, "tid":3, "ts":1701326916475806, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/level14" }}
+,{ "pid":12345, "tid":3, "ts":1701326916475892, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701326916475899, "dur":3788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/level14" }}
+,{ "pid":12345, "tid":3, "ts":1701326916479768, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1701326916479895, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701326916479903, "dur":64194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1701326916544174, "dur":4199016, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701326914745441, "dur":1422, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701326914746864, "dur":8461, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701326914755331, "dur":16421, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1701326914771764, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701326914791515, "dur":2974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1701326914794509, "dur":38568, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1701326914833082, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701326914833092, "dur":133802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1701326914966916, "dur":41271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701326915008192, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701326915008204, "dur":1413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701326915009689, "dur":60052, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701326915069746, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701326915069757, "dur":82362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701326915152213, "dur":547, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701326915152764, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701326915152774, "dur":86907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701326915239789, "dur":28011, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701326915267809, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701326915267826, "dur":2382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701326915270317, "dur":23785, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701326915294109, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701326915294121, "dur":28127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701326915322354, "dur":33192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701326915355550, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701326915355561, "dur":1784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701326915357467, "dur":472, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701326915357944, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701326915357958, "dur":71543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701326915429589, "dur":119487, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701326915549082, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701326915549095, "dur":33509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701326915582724, "dur":1594, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701326915584325, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701326915584337, "dur":66330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701326915650760, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701326915650863, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701326915650874, "dur":48943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701326915699913, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701326915700022, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701326915700030, "dur":135710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701326915835840, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/Firebase.Database.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701326915835921, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701326915835931, "dur":13071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/Firebase.Database.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701326915849097, "dur":379, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":4, "ts":1701326915849480, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701326915864884, "dur":56950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":4, "ts":1701326915921929, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":4, "ts":1701326915922006, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701326915922016, "dur":118466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":4, "ts":1701326916040620, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1701326916040721, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701326916040745, "dur":287552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1701326916328438, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":4, "ts":1701326916328554, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701326916328565, "dur":69582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":4, "ts":1701326916398284, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/sharedassets15.assets" }}
+,{ "pid":12345, "tid":4, "ts":1701326916398358, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701326916398369, "dur":56476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/sharedassets15.assets" }}
+,{ "pid":12345, "tid":4, "ts":1701326916454952, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/sharedassets10.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1701326916455059, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701326916455070, "dur":5444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/sharedassets10.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1701326916460654, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/level9" }}
+,{ "pid":12345, "tid":4, "ts":1701326916460774, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701326916460785, "dur":4411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/level9" }}
+,{ "pid":12345, "tid":4, "ts":1701326916465367, "dur":406, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/level4" }}
+,{ "pid":12345, "tid":4, "ts":1701326916465779, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701326916465808, "dur":4952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/level4" }}
+,{ "pid":12345, "tid":4, "ts":1701326916470889, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/level20" }}
+,{ "pid":12345, "tid":4, "ts":1701326916470984, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701326916470998, "dur":4751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/level20" }}
+,{ "pid":12345, "tid":4, "ts":1701326916475868, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/level13" }}
+,{ "pid":12345, "tid":4, "ts":1701326916475967, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701326916475975, "dur":3778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/level13" }}
+,{ "pid":12345, "tid":4, "ts":1701326916479866, "dur":250, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1701326916480119, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701326916480129, "dur":63927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1701326916544163, "dur":4199024, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701326914745532, "dur":1359, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701326914746892, "dur":8418, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701326914755330, "dur":51498, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1701326914806834, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701326914818555, "dur":989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1701326914819558, "dur":35364, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin.exe" }}
+,{ "pid":12345, "tid":5, "ts":1701326914854925, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701326914854933, "dur":112599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin.exe" }}
+,{ "pid":12345, "tid":5, "ts":1701326914967632, "dur":34435, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701326915002075, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701326915002088, "dur":4609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701326915006777, "dur":24942, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701326915031726, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701326915031740, "dur":119854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701326915151700, "dur":338, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701326915152042, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701326915152054, "dur":75059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701326915227202, "dur":62621, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701326915289829, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701326915289839, "dur":32558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701326915322652, "dur":299, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701326915322955, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701326915322966, "dur":9900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701326915332955, "dur":33704, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701326915366666, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701326915366679, "dur":79190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701326915445965, "dur":658, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701326915446628, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701326915446637, "dur":82122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701326915528884, "dur":275, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701326915529165, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701326915529173, "dur":39997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701326915569333, "dur":276, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701326915569615, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701326915569627, "dur":17048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701326915586779, "dur":347, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701326915587130, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701326915587141, "dur":63485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701326915650721, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701326915650842, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701326915650854, "dur":47858, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701326915698822, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701326915698927, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701326915698938, "dur":97152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701326915796219, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701326915796332, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701326915796343, "dur":52044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701326915848499, "dur":19761, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701326915868267, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701326915966568, "dur":75396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701326916042067, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/sharedassets23.assets" }}
+,{ "pid":12345, "tid":5, "ts":1701326916042165, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701326916042174, "dur":286750, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/sharedassets23.assets" }}
+,{ "pid":12345, "tid":5, "ts":1701326916329048, "dur":304, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1701326916329356, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701326916329369, "dur":96151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1701326916425624, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/sharedassets13.assets" }}
+,{ "pid":12345, "tid":5, "ts":1701326916425733, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701326916425743, "dur":30665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/sharedassets13.assets" }}
+,{ "pid":12345, "tid":5, "ts":1701326916456557, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":5, "ts":1701326916456728, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701326916456738, "dur":22563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":5, "ts":1701326916479407, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1701326916479516, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701326916479525, "dur":64054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1701326916543661, "dur":4199546, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701326914745595, "dur":1307, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701326914746902, "dur":8444, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701326914755347, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1701326914755473, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701326914791399, "dur":26830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1701326914818246, "dur":640453, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1701326915458706, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701326915458718, "dur":23228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1701326915481968, "dur":266, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701326915482237, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701326915482246, "dur":62630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701326915544975, "dur":242, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701326915545222, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701326915545231, "dur":37104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701326915582466, "dur":264, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701326915582734, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701326915582744, "dur":26084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701326915608933, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701326915609023, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701326915609031, "dur":81011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701326915690127, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701326915690198, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701326915690204, "dur":105854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701326915796167, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701326915796248, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701326915796259, "dur":42705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701326915839073, "dur":738, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701326915839818, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701326915839834, "dur":10035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701326915849960, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/sharedassets8.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1701326915850049, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701326915850056, "dur":116663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/sharedassets8.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1701326915966805, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":6, "ts":1701326915966874, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701326915966879, "dur":74816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":6, "ts":1701326916041810, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/sharedassets23.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1701326916041965, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701326916041976, "dur":324141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/sharedassets23.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1701326916366222, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/sharedassets17.assets" }}
+,{ "pid":12345, "tid":6, "ts":1701326916366326, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701326916366336, "dur":86818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/sharedassets17.assets" }}
+,{ "pid":12345, "tid":6, "ts":1701326916453281, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/sharedassets11.assets" }}
+,{ "pid":12345, "tid":6, "ts":1701326916453386, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701326916453396, "dur":4529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/sharedassets11.assets" }}
+,{ "pid":12345, "tid":6, "ts":1701326916458040, "dur":255, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":6, "ts":1701326916458299, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701326916458309, "dur":6813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":6, "ts":1701326916465216, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/level5" }}
+,{ "pid":12345, "tid":6, "ts":1701326916465308, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701326916465316, "dur":5773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/level5" }}
+,{ "pid":12345, "tid":6, "ts":1701326916471188, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/level17" }}
+,{ "pid":12345, "tid":6, "ts":1701326916471284, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701326916471294, "dur":7131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/level17" }}
+,{ "pid":12345, "tid":6, "ts":1701326916478530, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/level1" }}
+,{ "pid":12345, "tid":6, "ts":1701326916478626, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701326916478641, "dur":64382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/level1" }}
+,{ "pid":12345, "tid":6, "ts":1701326916543112, "dur":4200081, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701326914745691, "dur":1225, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701326914746917, "dur":8413, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701326914755333, "dur":269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1701326914755613, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701326914791437, "dur":2865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1701326914794330, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1701326914794384, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701326914794806, "dur":171724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1701326914966571, "dur":42944, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701326915009519, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701326915009528, "dur":1525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701326915011171, "dur":23915, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701326915035092, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701326915035136, "dur":117076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701326915152325, "dur":276, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701326915152604, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701326915152611, "dur":86717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701326915239602, "dur":390, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701326915240000, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701326915240062, "dur":5136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701326915245313, "dur":443, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701326915245762, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701326915245774, "dur":1957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701326915247853, "dur":452, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701326915248310, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701326915248358, "dur":1817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701326915250430, "dur":457, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701326915250894, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701326915250906, "dur":2872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701326915253965, "dur":44950, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701326915298919, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701326915298927, "dur":23160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701326915322189, "dur":70444, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701326915392639, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701326915392649, "dur":53625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701326915446366, "dur":401, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701326915446771, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701326915446782, "dur":82853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701326915529736, "dur":228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701326915529968, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701326915529978, "dur":39761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701326915569841, "dur":274, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701326915570120, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701326915570130, "dur":28580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701326915598916, "dur":321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701326915599243, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701326915599260, "dur":54211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701326915653668, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701326915653771, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701326915653793, "dur":62413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701326915716306, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701326915716383, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701326915716391, "dur":119471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701326915835949, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/Firebase.Auth.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701326915836035, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701326915836043, "dur":13541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/Firebase.Auth.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701326915849679, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/sharedassets9.assets" }}
+,{ "pid":12345, "tid":7, "ts":1701326915849767, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701326915849778, "dur":116335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/sharedassets9.assets" }}
+,{ "pid":12345, "tid":7, "ts":1701326915966230, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/sharedassets6.resource" }}
+,{ "pid":12345, "tid":7, "ts":1701326915966344, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701326915966354, "dur":74485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/sharedassets6.resource" }}
+,{ "pid":12345, "tid":7, "ts":1701326916040944, "dur":432, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":7, "ts":1701326916041380, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701326916041388, "dur":287608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":7, "ts":1701326916329109, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":7, "ts":1701326916329206, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701326916329216, "dur":95331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":7, "ts":1701326916424677, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/sharedassets14.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1701326916424770, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701326916424821, "dur":29980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/sharedassets14.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1701326916455073, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/sharedassets10.assets" }}
+,{ "pid":12345, "tid":7, "ts":1701326916455172, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701326916455182, "dur":4435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/sharedassets10.assets" }}
+,{ "pid":12345, "tid":7, "ts":1701326916459730, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1701326916459843, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701326916459855, "dur":4873, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1701326916464837, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/level6" }}
+,{ "pid":12345, "tid":7, "ts":1701326916464940, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701326916464952, "dur":5864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/level6" }}
+,{ "pid":12345, "tid":7, "ts":1701326916470896, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/level2" }}
+,{ "pid":12345, "tid":7, "ts":1701326916471057, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701326916471066, "dur":5105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/level2" }}
+,{ "pid":12345, "tid":7, "ts":1701326916476288, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/level12" }}
+,{ "pid":12345, "tid":7, "ts":1701326916476398, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701326916476407, "dur":4526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/level12" }}
+,{ "pid":12345, "tid":7, "ts":1701326916481077, "dur":4262105, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701326914745770, "dur":1174, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701326914746944, "dur":8388, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701326914755332, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1701326914755435, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701326914791408, "dur":26273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1701326914817703, "dur":1341938, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701326916159648, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701326916159710, "dur":175737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701326916335477, "dur":237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/sharedassets17.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1701326916335747, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701326916335757, "dur":118568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/sharedassets17.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1701326916457689, "dur":695, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1701326916458389, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701326916458399, "dur":8740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1701326916467421, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/level23" }}
+,{ "pid":12345, "tid":8, "ts":1701326916467532, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701326916467543, "dur":11764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/level23" }}
+,{ "pid":12345, "tid":8, "ts":1701326916479406, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1701326916479500, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701326916479508, "dur":64139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1701326916543739, "dur":4199470, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1701326914745840, "dur":1115, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1701326914746956, "dur":8434, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1701326914755391, "dur":24969, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1701326914780365, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1701326914791415, "dur":3207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1701326914794647, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1701326914794694, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1701326914794889, "dur":171588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1701326914966495, "dur":43469, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1701326915009967, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1701326915009975, "dur":1910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1701326915012055, "dur":68448, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1701326915080510, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1701326915080525, "dur":71646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1701326915152276, "dur":286, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1701326915152566, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1701326915152572, "dur":85029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1701326915237716, "dur":44453, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1701326915282175, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1701326915282186, "dur":39855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1701326915322131, "dur":23823, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1701326915345963, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1701326915346158, "dur":8139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1701326915354398, "dur":387, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1701326915354789, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1701326915354798, "dur":1458, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1701326915356341, "dur":53328, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1701326915409674, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1701326915409716, "dur":36857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1701326915446676, "dur":892, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":9, "ts":1701326915447573, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1701326915447591, "dur":81057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":9, "ts":1701326915528738, "dur":259, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1701326915529001, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1701326915529009, "dur":28184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1701326915557323, "dur":309, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":9, "ts":1701326915557638, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1701326915557775, "dur":25592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":9, "ts":1701326915583470, "dur":635, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":9, "ts":1701326915584111, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1701326915584126, "dur":66121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":9, "ts":1701326915650385, "dur":214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":9, "ts":1701326915650604, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1701326915650621, "dur":48876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":9, "ts":1701326915699595, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":9, "ts":1701326915699685, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1701326915699692, "dur":97723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":9, "ts":1701326915797546, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/Google.MiniJson.dll" }}
+,{ "pid":12345, "tid":9, "ts":1701326915797658, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1701326915797670, "dur":50771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/Google.MiniJson.dll" }}
+,{ "pid":12345, "tid":9, "ts":1701326915848566, "dur":36359, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Plugins/x86_64/FirebaseCppDatabase.dll" }}
+,{ "pid":12345, "tid":9, "ts":1701326915884930, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1701326915966290, "dur":79257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Plugins/x86_64/FirebaseCppDatabase.dll" }}
+,{ "pid":12345, "tid":9, "ts":1701326916045703, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/sharedassets22.assets" }}
+,{ "pid":12345, "tid":9, "ts":1701326916045803, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1701326916045819, "dur":283991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/sharedassets22.assets" }}
+,{ "pid":12345, "tid":9, "ts":1701326916329910, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/sharedassets18.assets" }}
+,{ "pid":12345, "tid":9, "ts":1701326916330002, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1701326916330011, "dur":95952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/sharedassets18.assets" }}
+,{ "pid":12345, "tid":9, "ts":1701326916426060, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/sharedassets12.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1701326916426150, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1701326916426159, "dur":36577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/sharedassets12.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1701326916463425, "dur":251, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/level8" }}
+,{ "pid":12345, "tid":9, "ts":1701326916463679, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1701326916463687, "dur":5628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/level8" }}
+,{ "pid":12345, "tid":9, "ts":1701326916469485, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/level22" }}
+,{ "pid":12345, "tid":9, "ts":1701326916469579, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1701326916469596, "dur":5857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/level22" }}
+,{ "pid":12345, "tid":9, "ts":1701326916475616, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/level16" }}
+,{ "pid":12345, "tid":9, "ts":1701326916475705, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1701326916475721, "dur":67038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/level16" }}
+,{ "pid":12345, "tid":9, "ts":1701326916542883, "dur":4200308, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1701326914745900, "dur":1101, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1701326914747002, "dur":8335, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1701326914755337, "dur":26575, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1701326914781916, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1701326914791430, "dur":3485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1701326914794944, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":10, "ts":1701326914795011, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1701326914795021, "dur":37917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":10, "ts":1701326914832958, "dur":267, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701326914833228, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1701326914833496, "dur":133629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701326914967234, "dur":23080, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701326914990320, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1701326914990331, "dur":16039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701326915006463, "dur":28622, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701326915035126, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1701326915035136, "dur":117005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701326915152233, "dur":17710, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701326915169950, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1701326915169962, "dur":71240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701326915241335, "dur":27597, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701326915268940, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1701326915268957, "dur":5947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701326915275004, "dur":267, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701326915275276, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1701326915275289, "dur":26163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701326915301559, "dur":392, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701326915301955, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1701326915301964, "dur":29156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701326915331256, "dur":37665, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701326915368926, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1701326915368934, "dur":77001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701326915446028, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701326915446145, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1701326915446155, "dur":82406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701326915528678, "dur":243, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701326915528926, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1701326915528936, "dur":28265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701326915557361, "dur":980, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701326915558345, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1701326915558354, "dur":27935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701326915586601, "dur":492, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701326915587100, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1701326915587110, "dur":64067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701326915651330, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701326915651434, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1701326915651573, "dur":47933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701326915699623, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701326915699743, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1701326915699755, "dur":97534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701326915797616, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/Firebase.TaskExtension.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701326915797730, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1701326915797741, "dur":51250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/Firebase.TaskExtension.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701326915849096, "dur":58317, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Plugins/x86_64/FirebaseCppApp-11_6_0.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701326915907419, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1701326915966109, "dur":84458, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Plugins/x86_64/FirebaseCppApp-11_6_0.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701326916050711, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/sharedassets21.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1701326916050830, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1701326916050844, "dur":278732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/sharedassets21.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1701326916329684, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/sharedassets18.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1701326916329781, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1701326916329790, "dur":96149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/sharedassets18.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1701326916426040, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/sharedassets12.resource" }}
+,{ "pid":12345, "tid":10, "ts":1701326916426130, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1701326916426140, "dur":31978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/sharedassets12.resource" }}
+,{ "pid":12345, "tid":10, "ts":1701326916458256, "dur":17115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":10, "ts":1701326916475380, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1701326916475395, "dur":3195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":10, "ts":1701326916478875, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/level0" }}
+,{ "pid":12345, "tid":10, "ts":1701326916479057, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1701326916479067, "dur":64452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/level0" }}
+,{ "pid":12345, "tid":10, "ts":1701326916543599, "dur":4199597, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1701326914745945, "dur":1064, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1701326914747010, "dur":8382, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1701326914755392, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1701326914755438, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1701326914791460, "dur":3187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1701326914794673, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":11, "ts":1701326914794718, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1701326914794727, "dur":58643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":11, "ts":1701326914853395, "dur":17122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1701326914870522, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1701326914965829, "dur":1917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1701326914967862, "dur":22570, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1701326914990436, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1701326914990445, "dur":16158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1701326915006685, "dur":24975, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1701326915031667, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1701326915031679, "dur":119851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1701326915151646, "dur":353, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1701326915152003, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1701326915152015, "dur":74831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1701326915226975, "dur":19588, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1701326915246569, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1701326915246582, "dur":1461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1701326915248142, "dur":28892, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1701326915277044, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1701326915277059, "dur":45266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1701326915322419, "dur":40920, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":11, "ts":1701326915363349, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1701326915363364, "dur":82530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":11, "ts":1701326915445988, "dur":1240, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":11, "ts":1701326915447231, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1701326915447238, "dur":96340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":11, "ts":1701326915543882, "dur":478, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":11, "ts":1701326915544368, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1701326915544382, "dur":37743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":11, "ts":1701326915582238, "dur":1235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1701326915583479, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1701326915583489, "dur":67124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1701326915651139, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":11, "ts":1701326915651239, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1701326915651247, "dur":48389, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":11, "ts":1701326915699738, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1701326915699855, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1701326915699863, "dur":135474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1701326915835425, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/Firebase.Platform.dll" }}
+,{ "pid":12345, "tid":11, "ts":1701326915835522, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1701326915835531, "dur":13399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Managed/Firebase.Platform.dll" }}
+,{ "pid":12345, "tid":11, "ts":1701326915849016, "dur":8781, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Plugins/x86_64/FirebaseCppAuth.dll" }}
+,{ "pid":12345, "tid":11, "ts":1701326915857803, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1701326915966077, "dur":74944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/Plugins/x86_64/FirebaseCppAuth.dll" }}
+,{ "pid":12345, "tid":11, "ts":1701326916041123, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1701326916041219, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1701326916041230, "dur":324958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1701326916366322, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/sharedassets16.assets" }}
+,{ "pid":12345, "tid":11, "ts":1701326916366431, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1701326916366438, "dur":87816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/sharedassets16.assets" }}
+,{ "pid":12345, "tid":11, "ts":1701326916454435, "dur":335, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/sharedassets10.resource" }}
+,{ "pid":12345, "tid":11, "ts":1701326916454776, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1701326916454790, "dur":8627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/sharedassets10.resource" }}
+,{ "pid":12345, "tid":11, "ts":1701326916463548, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/level7" }}
+,{ "pid":12345, "tid":11, "ts":1701326916463654, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1701326916463670, "dur":6134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/level7" }}
+,{ "pid":12345, "tid":11, "ts":1701326916469900, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/level21" }}
+,{ "pid":12345, "tid":11, "ts":1701326916469983, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1701326916469992, "dur":5712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/level21" }}
+,{ "pid":12345, "tid":11, "ts":1701326916475803, "dur":289, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/level15" }}
+,{ "pid":12345, "tid":11, "ts":1701326916476096, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1701326916476387, "dur":67087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/Habilin_Data/level15" }}
+,{ "pid":12345, "tid":11, "ts":1701326916543559, "dur":4199650, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1701326914745983, "dur":1033, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1701326914747017, "dur":8299, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1701326914755330, "dur":268, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1701326914755602, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1701326914791505, "dur":26254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1701326914817790, "dur":5879906, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":12, "ts":1701326920697701, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1701326920697709, "dur":45414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Laffey/Documents/School/Capstone Game/Build/Habilin_PC_1_7/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":12, "ts":1701326920743147, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":12, "ts":1701326920743150, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701326920750618, "dur":3408, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1701326920774507, "dur": 1585, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1701326920772762, "dur": 3361, "ph": "X", "name": "Write chrome-trace events", "args": {} },

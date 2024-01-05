@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be850155269658e4f846675bea5aba24, type: 3}
+  m_Name: 1
+  m_EditorClassIdentifier: 
+  sentences:
+  - englishText: Rajah Humabon, I believe Christianity can bring prosperity and unity
+      to your people. Will you consider accepting this faith?
+    tagalogText: 'Rajah Humabon, naniniwala ako na ang Kristiyanismo ay maaaring
+      magdala ng kaunlaran at pagkakaisa sa iyong mga tao. Isasaalang-alang mo bang
+      tanggapin ang pananampalatayang ito? '
+    speaker: {fileID: 11400000, guid: 9b0d3e1ad95dd0e4a818fd62bd23011b, type: 2}
+  - englishText: I'm intrigued, but change is not easy. Can you assure me it won't
+      erase our culture?
+    tagalogText: Ito ay bumihag sa aking atensyon, ngunit hindi madali ang pagbabago.
+      Masisigurado mo ba sa akin na hindi nito mabubura ang ating kultura?
+    speaker: {fileID: 11400000, guid: 30935c4a0788ce54ca6c287bffed5484, type: 2}
+  - englishText: 'Christianity can coexist with your traditions. It''s about finding
+      peace and love within your beliefs. Let me baptize you and your family to start
+      this journey together. '
+    tagalogText: 'Ang Kristiyanismo ay maaaring magkasabay sa iyong mga tradisyon.
+      Ito ay tungkol sa paghahanap ng kapayapaan at pagmamahal sa loob ng iyong mga
+      paniniwala. Hayaan mong binyagan kita at ang iyong pamilya upang simulan ang
+      paglalakbay na ito nang magkasama. '
+    speaker: {fileID: 11400000, guid: 9b0d3e1ad95dd0e4a818fd62bd23011b, type: 2}
+  - englishText: Very well, let's take that step. Baptize us, Magellan, and may it
+      bring the promised blessings and unity.
+    tagalogText: 'Kung ganon, gawin natin ang hakbang na iyon. Binyagan mo kami,
+      Magellan, at nawa''y magdala ito ng mga ipinangakong pagpapala at pagkakaisa. '
+    speaker: {fileID: 11400000, guid: 30935c4a0788ce54ca6c287bffed5484, type: 2}
+  hasHint: 0
+  toHint: 

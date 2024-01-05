@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be850155269658e4f846675bea5aba24, type: 3}
+  m_Name: 1
+  m_EditorClassIdentifier: 
+  sentences:
+  - englishText: Here we are, You are now in the Mactan.
+    tagalogText: 'Nandito na tayo, Nandito ka ngayon sa Mactan. '
+    speaker: {fileID: 11400000, guid: 44967a23cc0bba941a054f80476fc22e, type: 2}
+  - englishText: What am I going to do?
+    tagalogText: Ano ang gagawin ko?
+    speaker: {fileID: 11400000, guid: 83e0e985c1dbe114ea3a51686bcb6b38, type: 2}
+  - englishText: You need to train in order to be a great leader of this place. Can
+      you do it?
+    tagalogText: 'Kailangan mong magsanay upang maging isang mahusay na pinuno ng
+      lugar na ito. Nakahanda kaba sa responsibilidad? '
+    speaker: {fileID: 11400000, guid: 44967a23cc0bba941a054f80476fc22e, type: 2}
+  - englishText: I will try.
+    tagalogText: Susubukan ko.
+    speaker: {fileID: 11400000, guid: 83e0e985c1dbe114ea3a51686bcb6b38, type: 2}
+  - englishText: LAPULAPU! Come here!
+    tagalogText: LAPULAPU! Halika nga dito!
+    speaker: {fileID: 11400000, guid: aa74919f0e18df44b902f553b41fa397, type: 2}
+  - englishText: It seems like your father is calling you. Go now.
+    tagalogText: 'Tinatawag ka nang tatay mo. Maaari ka nang umalis. '
+    speaker: {fileID: 11400000, guid: 44967a23cc0bba941a054f80476fc22e, type: 2}
+  - englishText: ' Thanks'
+    tagalogText: Salamat.
+    speaker: {fileID: 11400000, guid: 83e0e985c1dbe114ea3a51686bcb6b38, type: 2}
+  hasHint: 1
+  toHint: Go to your Father

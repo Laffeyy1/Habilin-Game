@@ -1,0 +1,4 @@
+#Tue Nov 28 08:54:51 SGT 2023
+base.0=C\:\\Project\\Habilin-ab5a87c0a51bda43c33773d6a6b4e98252e79bd5\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

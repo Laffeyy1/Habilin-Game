@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be850155269658e4f846675bea5aba24, type: 3}
+  m_Name: 3
+  m_EditorClassIdentifier: 
+  sentences:
+  - englishText: Mahisay! Ihanap mo ako ng baboy-damo.
+    tagalogText: Great! Now go hunt me some boar.
+    speaker: {fileID: 11400000, guid: aa74919f0e18df44b902f553b41fa397, type: 2}
+  - englishText: Yes Father.
+    tagalogText: Masusunod Aking ama.
+    speaker: {fileID: 11400000, guid: f475f83351979d64cada43712f2b7915, type: 2}
+  hasHint: 1
+  toHint: Hunt a boar.

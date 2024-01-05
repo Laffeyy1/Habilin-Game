@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6407e1d49e69c79499ef385a1e15165c, type: 3}
+  m_Name: Champorado
+  m_EditorClassIdentifier: 
+  itemImage: {fileID: 1073991334, guid: cebb3cc98eb63d145b62ddac470fae79, type: 3}
+  itemName: Champorado
+  description: Champorado is a Filipino chocolate rice porridge, a sweet dish made
+    with glutinous rice and cocoa, often served with evaporated milk, and paired
+    with salty dried fish for a unique flavor contrast.

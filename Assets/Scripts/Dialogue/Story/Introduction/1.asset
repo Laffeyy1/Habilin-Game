@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be850155269658e4f846675bea5aba24, type: 3}
+  m_Name: 1
+  m_EditorClassIdentifier: 
+  sentences:
+  - englishText: ...
+    tagalogText: ...
+    speaker: {fileID: 11400000, guid: 83e0e985c1dbe114ea3a51686bcb6b38, type: 2}
+  - englishText: ...
+    tagalogText: ...
+    speaker: {fileID: 11400000, guid: 83e0e985c1dbe114ea3a51686bcb6b38, type: 2}
+  - englishText: ...
+    tagalogText: ...
+    speaker: {fileID: 11400000, guid: 83e0e985c1dbe114ea3a51686bcb6b38, type: 2}
+  - englishText: Where am I? Hello?
+    tagalogText: Nasaan ako? Hello?
+    speaker: {fileID: 11400000, guid: 83e0e985c1dbe114ea3a51686bcb6b38, type: 2}
+  - englishText: Is there someone here?
+    tagalogText: Mayroong bang narito?
+    speaker: {fileID: 11400000, guid: 83e0e985c1dbe114ea3a51686bcb6b38, type: 2}
+  - englishText: '*As the player looks around, they notice an ancient book resting
+      on a pedestal. It suddenly starts to emit a soft glow.*'
+    tagalogText: '*Samantalang tinitingnan ng manlalaro ang paligid, napapansin nila
+      ang isang sinaunang aklat na nakahiga sa isang pedestal. Bigla itong nagsisimula
+      ng mag-emit ng mahinang kislap.*'
+    speaker: {fileID: 11400000, guid: 83e0e985c1dbe114ea3a51686bcb6b38, type: 2}
+  - englishText: Greetings, dear traveler, My Name Is Anito.
+    tagalogText: Magandang araw, mahal kong manlalakbay, Ako'y si Anito.
+    speaker: {fileID: 11400000, guid: 44967a23cc0bba941a054f80476fc22e, type: 2}
+  - englishText: (Chuckling softly) I am but a humble guide, and the book before
+      you is one of my preferred forms of communication. It's a pleasure to make
+      your acquaintance.
+    tagalogText: (Ngumingiti nang bahagya) Ako'y isang simpleng tagapamahala, at
+      ang aklat na nasa harap mo ay isa sa aking mga paboritong paraan ng pakikipag-ugnayan.
+      Ito'y kasiyahan kong makilala ka.
+    speaker: {fileID: 11400000, guid: 44967a23cc0bba941a054f80476fc22e, type: 2}
+  - englishText: (Curious) So, you're the one guiding me?
+    tagalogText: (Curious) Kaya ikaw ang mag-aakay sa akin?
+    speaker: {fileID: 11400000, guid: 83e0e985c1dbe114ea3a51686bcb6b38, type: 2}
+  - englishText: 'Indeed, my form may change, but my purpose remains constant. As
+      for where you are, you''ve awoken from a profound slumber to find yourself
+      in an unfamiliar place. '
+    tagalogText: Tunay nga, maaaring mag-iba ang aking anyo, ngunit mananatili ang
+      layunin ko. Tungkol naman sa kung nasaan ka, nagising ka mula sa malalim na
+      pagkakatulog upang matagpuan ang iyong sarili sa isang di-pamilyar na lugar.
+    speaker: {fileID: 11400000, guid: 44967a23cc0bba941a054f80476fc22e, type: 2}
+  - englishText: A slumber? This is all so surreal.
+    tagalogText: Isang pagkakatulog? Ito'y lubos na kakaiba.
+    speaker: {fileID: 11400000, guid: 83e0e985c1dbe114ea3a51686bcb6b38, type: 2}
+  - englishText: 'Surreal it may be, but your presence here is of great importance.
+      You see, I am in need of your aid to mend the threads of history. '
+    tagalogText: Kahit na kakaiba, ngunit napakahalaga ng iyong pagkakaroon dito.
+      Makikita mo, kailangan ko ang iyong tulong upang ayusin ang mga kuwento ng
+      kasaysayan.
+    speaker: {fileID: 11400000, guid: 44967a23cc0bba941a054f80476fc22e, type: 2}
+  - englishText: Let's Start by expoling around! Let's Go!
+    tagalogText: Mag-umpisa tayo sa pamamagitan ng pag-explore! Tara na!
+    speaker: {fileID: 11400000, guid: 44967a23cc0bba941a054f80476fc22e, type: 2}
+  hasHint: 1
+  toHint: Use the joystick on your left to move.

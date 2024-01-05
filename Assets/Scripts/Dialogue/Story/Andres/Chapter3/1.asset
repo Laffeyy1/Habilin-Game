@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be850155269658e4f846675bea5aba24, type: 3}
+  m_Name: 1
+  m_EditorClassIdentifier: 
+  sentences:
+  - englishText: 'My fellow countrymen, I hear your concerns. Our path to freedom
+      is not without its challenges, and I may have overshadowed the collective wisdom
+      of our movement. '
+    tagalogText: 'Mga kababayan, naririnig ko ang inyong mga alalahanin. Ang ating
+      landas tungo sa kalayaan ay walang mga hamon, at maaaring natabunan ko ang
+      kolektibong karunungan ng ating kilusan. '
+    speaker: {fileID: 11400000, guid: 87baf972c46c61b4d888d12ffd4ef6e0, type: 2}
+  - englishText: Andres, your acknowledgment is a testament to your integrity. Let
+      us balance your passion with open dialogue.
+    tagalogText: 'Andres, ang iyong pagkilala ay isang patunay ng iyong integridad.
+      Hayaan kaming balansehin ang iyong hilig sa bukas na diyalogo. '
+    speaker: {fileID: 11400000, guid: ef59478a8e0c4ca48ab614b842fc2615, type: 2}
+  - englishText: 'I''m ready to embrace a new approach that values every voice among
+      us. '
+    tagalogText: ': Handa akong yakapin ang isang bagong pamamaraan na pinahahalagahan
+      ang bawat boses sa atin. '
+    speaker: {fileID: 11400000, guid: 87baf972c46c61b4d888d12ffd4ef6e0, type: 2}
+  - englishText: Our diversity should be our greatest asset, nurturing leadership
+      within our ranks.
+    tagalogText: Ang ating pagkakaiba-iba ay dapat ang ating pinakamalaking pag-aari,
+      na nag-aalaga ng pamumuno sa loob ng ating hanay.
+    speaker: {fileID: 11400000, guid: 4b05ee9b110f58f48a6b6ac30af1d556, type: 2}
+  - englishText: I agree, and I'll empower emerging leaders at every level.
+    tagalogText: Sumasang-ayon ako, at bibigyan ko ng kapangyarihan ang mga umuusbong
+      na pinuno sa bawat antas.
+    speaker: {fileID: 11400000, guid: 87baf972c46c61b4d888d12ffd4ef6e0, type: 2}
+  - englishText: 'Let this moment be a turning point in our struggle for a free Philippines. '
+    tagalogText: ' Maging punto ng pagbabago ang sandaling ito sa ating pakikibaka
+      para sa isang malayang Pilipinas. '
+    speaker: {fileID: 11400000, guid: ef59478a8e0c4ca48ab614b842fc2615, type: 2}
+  - englishText: ' With your support, we''ll reshape our movement. '
+    tagalogText: 'Sa iyong suporta, muli naming bubuuin ang aming kilusan. '
+    speaker: {fileID: 11400000, guid: 87baf972c46c61b4d888d12ffd4ef6e0, type: 2}
+  - englishText: Let us stand together as one, bound by our shared struggle and mutual
+      respect.
+    tagalogText: 'Sama-sama tayong manindigan bilang isa, na nakatali sa ating pinagsamang
+      pakikibaka at paggalang sa isa''t isa. '
+    speaker: {fileID: 11400000, guid: ef59478a8e0c4ca48ab614b842fc2615, type: 2}
+  - englishText: ' Together, we''ll grasp our freedom. Onwards, my comrades, onwards
+      to a liberated Philippines! '
+    tagalogText: ' Sama-sama nating makakamit ang ating kalayaan. Pasulong, aking
+      mga kasama, tungo sa isang pinalayang Pilipinas! '
+    speaker: {fileID: 11400000, guid: 87baf972c46c61b4d888d12ffd4ef6e0, type: 2}
+  hasHint: 0
+  toHint: 

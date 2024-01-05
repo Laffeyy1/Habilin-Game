@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6407e1d49e69c79499ef385a1e15165c, type: 3}
+  m_Name: Cedula
+  m_EditorClassIdentifier: 
+  itemImage: {fileID: 21300000, guid: 625ae69be7d34a646a6875a0d41db140, type: 3}
+  itemName: Cedula
+  description: During the Philippine Revolution, the Katipunan (KKK) symbolically
+    tore the cedula, or community tax certificate, as an act of defiance against
+    Spanish authority. This gesture represented a rejection of Spanish impositions,
+    including taxes, and a unified stand for independence.

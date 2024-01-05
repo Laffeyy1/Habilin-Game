@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 693ff72171e192e4587e297c065e7336, type: 3}
+  m_Name: Lapu Lapu
+  m_EditorClassIdentifier: 
+  ID: 0
+  characterName: LapuLapu
+  description: Datu of Mactan
+  sprite: {fileID: -2141880944, guid: abdedb116a45f214ab6a8c63e0edf081, type: 3}
+  displayIcon: {fileID: 21300000, guid: b543838057172e246b425e56d9da4d78, type: 3}
+  health: 9
+  speed: 5
+  mana: 6
+  skillName: Mactan's Fury
+  skillSprite: {fileID: 21300000, guid: c71a8c9c47fe95440b88796b1fccfc93, type: 3}
+  skillDesription: Lapu Lapu calls upon "Mactan's Furry," delivering a ground-shaking
+    strike that inflicts potent area-of-effect damage.

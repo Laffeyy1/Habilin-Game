@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6407e1d49e69c79499ef385a1e15165c, type: 3}
+  m_Name: Arnis
+  m_EditorClassIdentifier: 
+  itemImage: {fileID: 1779078243, guid: b9b2e4cc90898f94897673170962bf6f, type: 3}
+  itemName: Arnis
+  description: Arnis sticks, also called Eskrima or Kali sticks, are martial arts
+    training tools used in Filipino Arnis. Made of rattan, these sticks are integral
+    for practicing stick fighting techniques, enhancing skills in weapon-based martial
+    arts.

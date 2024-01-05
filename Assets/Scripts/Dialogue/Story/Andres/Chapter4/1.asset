@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be850155269658e4f846675bea5aba24, type: 3}
+  m_Name: 1
+  m_EditorClassIdentifier: 
+  sentences:
+  - englishText: Andres, your decisions stirred internal debates and differing opinions
+      within our movement.
+    tagalogText: Andres, ang iyong mga desisyon ay nagdulot ng mga diskusyon at magkakaibang
+      opinyon sa loob ng ating kilusan.
+    speaker: {fileID: 11400000, guid: ef59478a8e0c4ca48ab614b842fc2615, type: 2}
+  - englishText: I believed bold actions were necessary to break free from Spanish
+      oppression. I'm willing to listen and learn from past disagreements.
+    tagalogText: Naniniwala ako na kinakailangan ang matapang na hakbang para makalaya
+      sa pang-aapi ng mga Espanyol. Handa akong makinig at mag-aral mula sa mga dati
+      nating hindi pagkakasunduan.
+    speaker: {fileID: 11400000, guid: 87baf972c46c61b4d888d12ffd4ef6e0, type: 2}
+  - englishText: Some perceived your leadership as authoritative, limiting the expression
+      of diverse viewpoints.
+    tagalogText: Ipinapalagay ng iba na ang iyong pamumuno ay may tibay, na naglilimita
+      sa pagpapahayag ng iba't ibang pananaw.
+    speaker: {fileID: 11400000, guid: 4b05ee9b110f58f48a6b6ac30af1d556, type: 2}
+  - englishText: I now recognize the value of inclusive governance and am open to
+      balancing strong leadership with embracing diverse perspectives.
+    tagalogText: Ngayon, aking nauunawaan ang halaga ng inklusibong pamamahala at
+      handa akong balansehin ang malakas na pamumuno sa pagtanggap ng magkakaibang
+      pananaw.
+    speaker: {fileID: 11400000, guid: 87baf972c46c61b4d888d12ffd4ef6e0, type: 2}
+  - englishText: Some of your confrontations strained our unity.
+    tagalogText: Ang ilang mga pagtutunggali ay nagdulot ng tensyon sa ating pagkakaisa.
+    speaker: {fileID: 11400000, guid: ef59478a8e0c4ca48ab614b842fc2615, type: 2}
+  - englishText: I deeply regret actions that strained our unity and am willing to
+      make amends.
+    tagalogText: ' Lubos kong pinagsisisihan ang mga aksyong nagdulot ng tensyon
+      sa ating pagkakaisa at handa akong gumawa ng mga hakbang para ito''y mabawasan.'
+    speaker: {fileID: 11400000, guid: 87baf972c46c61b4d888d12ffd4ef6e0, type: 2}
+  - englishText: Your actions led to your arrest and charges of sedition against
+      you.
+    tagalogText: Dahil sa iyong mga hakbang, ikaw ay inaresto at kinasuhan ng sedisyon.
+    speaker: {fileID: 11400000, guid: ef59478a8e0c4ca48ab614b842fc2615, type: 2}
+  - englishText: I'm prepared to step aside if it helps our cause move forward.
+    tagalogText: Handa akong magbitiw sa posisyon kung ito'y makakatulong sa pagsulong
+      ng ating adhikain.
+    speaker: {fileID: 11400000, guid: 87baf972c46c61b4d888d12ffd4ef6e0, type: 2}
+  - englishText: The charges against you are grave.
+    tagalogText: Ang mga akusasyon laban sa iyo ay mabibigat.
+    speaker: {fileID: 11400000, guid: 4b05ee9b110f58f48a6b6ac30af1d556, type: 2}
+  - englishText: My sacrifice is significant, but if it unifies our people, I accept
+      this fate.
+    tagalogText: Ang aking sakripisyo ay malalim, ngunit kung ito ang magbubuklod
+      sa ating bayan, tinatanggap ko ang kapalarang ito.
+    speaker: {fileID: 11400000, guid: 87baf972c46c61b4d888d12ffd4ef6e0, type: 2}
+  - englishText: Despite our conflicts, your dedication continues to inspire us.
+    tagalogText: Sa kabila ng ating mga tunggalian, ang iyong dedikasyon ay patuloy
+      na nagbibigay-inspirasyon sa amin.
+    speaker: {fileID: 11400000, guid: 4b05ee9b110f58f48a6b6ac30af1d556, type: 2}
+  - englishText: Let my sacrifice ignite the flames of our revolution. Together,
+      we shall triumph, and our nation will one day stand proud and liberated.
+    tagalogText: Pabayaan mong ang aking sakripisyo ay maging lihim ng ating rebolusyon.
+      Magkakasama, tayo ay magtatagumpay, at ang ating bansa ay isang araw ay magiging
+      mapagmalaki at malaya.
+    speaker: {fileID: 11400000, guid: 87baf972c46c61b4d888d12ffd4ef6e0, type: 2}
+  hasHint: 0
+  toHint: 
